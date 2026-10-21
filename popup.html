@@ -15,7 +15,8 @@
     section { background: linear-gradient(180deg, #141127, #0d0b18); border: 1px solid var(--line); border-radius: 14px; padding: 12px; }
     .k { color: var(--dim); font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; }
     #balance { font-size: 28px; font-weight: 800; margin-top: 4px; }
-    #address, #network, #holdings, #signed { word-break: break-all; }
+    #address, #network, #holdings, #signed, #shield-reset { word-break: break-all; }
+    #shield-reset { color: var(--txt); }
     #holdings { min-height: 48px; white-space: pre-wrap; }
     label { display: grid; gap: 6px; margin-bottom: 8px; }
     input { width: 100%; background: #0b0a15; color: var(--txt); border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
@@ -36,6 +37,7 @@
     </div>
   </header>
   <main>
+    <p id="shield-reset">The shield pool was reset. The 1.99 test CLAWD in the old pool stays stuck.</p>
     <section>
       <div class="k">Balance</div>
       <div id="balance">0 CLAWD</div>

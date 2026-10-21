@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Clawd Chain Wallet",
   "version": "1.0.0",
-  "description": "Local-custody wallet for Clawd Chain. Native coin CLAWD. Talks to rpc.clawdchain.trade and the faucet.",
+  "description": "Local-custody wallet for Clawd Chain. Native coin CLAWD. Talks to rpc.clawdchain.trade and the faucet. The shield pool was reset. The 1.99 test CLAWD in the old pool stays stuck.",
   "action": {
     "default_popup": "popup.html",
     "default_title": "Clawd Wallet"

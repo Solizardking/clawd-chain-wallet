@@ -2,6 +2,10 @@ function byId(id) {
   return document.getElementById(id);
 }
 
+const SHIELD_RESET = 'The shield pool was reset. The 1.99 test CLAWD in the old pool stays stuck.';
+const shieldReset = byId('shield-reset');
+if (shieldReset) shieldReset.textContent = SHIELD_RESET;
+
 const pinchButton = byId('pinch');
 if (pinchButton) pinchButton.disabled = true;
 

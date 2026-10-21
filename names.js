@@ -32,5 +32,6 @@
     });
   }
 
-  return { parseMintAccount, resolveHoldings };
+  const SHIELD_RESET = 'The shield pool was reset. The 1.99 test CLAWD in the old pool stays stuck.';
+  return { parseMintAccount, resolveHoldings, shieldReset: SHIELD_RESET };
 });
