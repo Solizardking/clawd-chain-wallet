@@ -18,3 +18,5 @@ That page loads these same scripts, shows the address and CLAWD balance, and ope
 The popup talks to `https://rpc.clawdchain.trade`. Get CLAWD asks `https://faucet.clawdchain.trade` for a proof-of-work challenge and posts the solution. Sign writes an Ed25519 signature over `{sender, recipient, amount, network:"clawd"}` and does not broadcast a transaction.
 
 CLAWD has no monetary value. The chain is a public SVM playground.
+
+The shield pool was reset. The 1.99 test CLAWD in the old pool stays stuck.

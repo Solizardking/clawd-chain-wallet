@@ -1,4 +1,5 @@
 // Proof-of-work hasher for the clawd faucet. Classic script and Node.
+// The shield pool was reset. The 1.99 test CLAWD in the old pool stays stuck.
 (function (root, factory) {
   const api = factory();
   if (typeof module !== 'undefined' && module.exports) module.exports = api;

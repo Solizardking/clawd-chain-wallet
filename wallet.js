@@ -2,6 +2,7 @@
 (function (root) {
   const RPC = 'https://rpc.clawdchain.trade';
   const FAUCET = 'https://faucet.clawdchain.trade';
+  const SHIELD_RESET = 'The shield pool was reset. The 1.99 test CLAWD in the old pool stays stuck.';
   const LAMPORTS = 1000000000n;
   const encoder = new TextEncoder();
   const ALPHABET = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
@@ -239,6 +240,7 @@
   root.ClawdWallet = {
     RPC,
     FAUCET,
+    shieldReset: SHIELD_RESET,
     createOrRestore,
     lock,
     refresh,
